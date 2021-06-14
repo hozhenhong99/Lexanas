@@ -19,8 +19,7 @@ having meals (with their phones beside them), or doing a project (on their deskt
 Proposed Core Features:
 
 1. Users can use the chatbot to create reminders for their lessons using '/add'.
-2. On using the '/add' command, the bot will prompt the user to fill in the required details of their lessons. These details include Module Code, Time and Day of Lesson, 
-   ZoomLink/MeetingID and PW, and Venue of Lesson. Users can also choose how long before lessons they want their reminders (not confirmed).
+2. On using the '/add' command, the bot will prompt the user to fill in the required details of their lessons. These details include Module Code, Time and Day of Lesson, ZoomLink/MeetingID and PW, and Venue of Lesson. Users can also choose how long before lessons they want their reminders (not confirmed).
 3. The reminders would come in and display the user-inputted details at the chosen time. (e.g. 10 minutes before lesson etc.)
 4. Users can use the '/edit' command to change any lesson data inputted before in the case of shifting timetables.
 5. Users can use the '/remove' command to remove any lesson data completely. 
