@@ -1,0 +1,26 @@
+Proposed Level of Achievement: Vostok
+ 
+
+Problem Motivation and Project Scope:
+
+During our first year in NUS, there were times when we forgot that we had lessons at certain timings due to being occupied with other things at the time (e.g. having 
+meals or doing projects). Additionally, we also found that looking for the zoom link for lectures was a very huge hassle due to there being no centralized method for 
+lecturers to give out their zoom links (e.g. some links were on Luminus, some on coursemology, some were emailed to the student, etc.). Being first-year students also 
+brought with it the lack of knowledge of the school campus layout. We can still remember being hopelessly lost on the first day of face-to-face lessons due to not being 
+able to locate the classroom. We ended up being a whole two blocks away...
+
+All these experiences gave us the idea of making a Telegram chatbot to make getting to lessons (online or offline) much easier for students. 
+
+The reason why we chose a Telegram chatbot instead of an emailing bot or a mobile application is because we realised that Telegram is a very popular messaging application
+amongst us students. Emails are rarely checked, and having an application just for a reminder bot seemed a little overkill and students might be turned off from the need 
+to download something new. In addition, Telegram can be accessed from both mobile and desktop, making it a very versatile form of communication. Thus, even if students are 
+having meals (with their phones beside them), or doing a project (on their desktop), our reminder chatbot would still be able to get through to them.
+
+Proposed Core Features:
+
+1. Users can use the chatbot to create reminders for their lessons using '/add'.
+2. On using the '/add' command, the bot will prompt the user to fill in the required details of their lessons. These details include Module Code, Time and Day of Lesson, 
+   ZoomLink/MeetingID and PW, and Venue of Lesson. Users can also choose how long before lessons they want their reminders (not confirmed).
+3. The reminders would come in and display the user-inputted details at the chosen time. (e.g. 10 minutes before lesson etc.)
+4. Users can use the '/edit' command to change any lesson data inputted before in the case of shifting timetables.
+5. Users can use the '/remove' command to remove any lesson data completely. 
